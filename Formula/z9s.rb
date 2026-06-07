@@ -11,9 +11,9 @@ class Z9s < Formula
   def install
     system "go", "build", 
             "-ldflags", 
-            "-X github.com/yourusername/z9s/cmd.version=#{version} " \
-            "-X github.com/yourusername/z9s/cmd.commit=#{ENV.fetch('GIT_COMMIT', 'unknown')} " \
-            "-X github.com/yourusername/z9s/cmd.date=#{Time.now.iso8601}",
+            "-X github.com/zerote/z9s/cmd.version=#{version} " \
+            "-X github.com/zerote/z9s/cmd.commit=#{ENV.fetch('GIT_COMMIT', 'unknown')} " \
+            "-X github.com/zerote/z9s/cmd.date=#{Time.now.iso8601}",
             "-o", bin/"z9s"
   end
 
