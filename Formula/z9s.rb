@@ -1,8 +1,8 @@
 class Z9s < Formula
   desc "Unified Kubernetes CLI with FluxCD & ArgoCD support and metrics dashboard"
   homepage "https://github.com/zerote/z9s"
-  url "https://github.com/zerote/z9s/archive/refs/tags/v0.55.8.tar.gz"
-  sha256 "8ebd69f775cd4becfdd78d7572f943399c914325d3152cb8e3611a470d79e41a"
+  url "https://github.com/zerote/z9s/archive/refs/tags/v0.55.9.tar.gz"
+  sha256 "6de215255e8d68821a29846e2aab796a7f638f52880a664ef58ddedec0f49b39"
   license "Apache-2.0"
   
   depends_on "go" => :build
